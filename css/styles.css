@@ -1,0 +1,8 @@
+body{
+    height: 100vh;
+}
+.post{
+    margin: 5px;
+    border: 1px solid aqua/*erase this when finished*/;
+    display: flex;
+}

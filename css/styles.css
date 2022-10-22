@@ -1,8 +1,25 @@
 body{
     height: 100vh;
+    width: 100vh;
+    margin: 0px;
+    padding: 50px;
+    display: flex;
 }
 .post{
     margin: 5px;
     border: 1px solid aqua/*erase this when finished*/;
     display: flex;
+}
+.post-head{
+
+}
+.post-img{
+    height: 30vh;
+    width: 30vh;
+    border: 0px solid black;
+    display: flex;
+    
+}
+.post-body{
+
 }

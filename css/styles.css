@@ -15,7 +15,7 @@ body{
 }
 /*Post Head*/
 .post-head{
-    border: 1px solid red/*erase this when finished*/;
+    border: 1px solid green/*erase this when finished*/;
     display:inline-flex;
     position: relative;
     align-content:space-between;
@@ -25,21 +25,21 @@ body{
     font-size: x-large;
     position: relative;
     align-content:space-around;
-    padding-inline: 2.5rem;
-    display: inline-flex;
+    padding-inline: 15%;
+    display: flexbox;
 }
 .post-title{
     border: 1px solid red/*erase this when finished*/;
-    display:flex;
+    display:flexbox;
     justify-content:space-between;
-    padding: 2%;
+    padding-inline: 70%;
 }
 .dotsmenu{
     border: 1px solid red/*erase this when finished*/;
     position: relative;
-    padding-inline: 2.5rem;
+    padding-inline: 15%;
     align-content: space-around;
-    display: inline-flex;
+    display: flexbox;
 }
 /*Post Image*/
 .post-img{
@@ -58,7 +58,6 @@ body{
 }
 .icons{
     border: 1px solid red/*erase this when finished*/;
-    font-size: x-large;
 }
 .comments{
     border: 1px solid red/*erase this when finished*/;

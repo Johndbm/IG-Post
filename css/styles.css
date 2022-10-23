@@ -1,47 +1,45 @@
 body{
     background-color: gray;
     font-family: 'Roboto', sans-serif;
-
 }
 /*Post wrapper*/
 .post{
+    width: min-content;
     margin: 5px;
-    border: 7px solid purple/*erase this when finished*/;
     display: flexbox;
     position: relative;
     background-color: white;
+    
 }
 /*Post Head*/
 .post-head{
-    border: 3px solid aqua/*erase this when finished*/;
     display:flex;
     position: relative;
     width: auto;
 }
 .html5-icon{
-    border: 1px solid red/*erase this when finished*/;
     position: relative;
     padding-inline: 3%;
     display: flexbox;
-    padding-top: 10%;
+    padding-top: 5%;
+    justify-content: start;
 }
 .post-title{
-    border: 1px solid red/*erase this when finished*/;
     display: flexbox;
     position: relative;
-    padding-inline: 15%;
+    justify-content: stretch;
+    padding-top: 2%;
+    text-align: justify;
 }
 .dotsmenu{
-    border: 1px solid red/*erase this when finished*/;
     position: relative;
-    padding-inline: 5%;
+    justify-content: left;
     display: flexbox;
-    padding-top: 10%;
+    padding-top: 5%;
     
 }
 /*Post Image*/
 .post-img{
-    border: 3px solid yellowgreen/*erase this when finished*/;
     height: 50vh;
     width: fit-content;
     display: flex;
@@ -49,18 +47,18 @@ body{
 }
 /*Post Body*/
 .post-body{
-    border: 1px solid blue/*erase this when finished*/;
     position: relative;
 }
 .icons{
-    border: 1px solid red/*erase this when finished*/;
     padding: 2%;
+}
+.iconsSpace{
+    padding-inline: 0.5%;
 }
 .bookmark{
     display: inline;
     float: right;
 }
 .comments{
-    /*border: 1px solid red/*erase this when finished;*/
     padding: 2%;
 }

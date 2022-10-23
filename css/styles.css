@@ -1,68 +1,66 @@
 body{
-    height: 100px;
-    width: 100px;
-    margin: 0px;
-    padding: 50px;
-    display: flexbox;
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+
 }
 /*Post wrapper*/
 .post{
     margin: 5px;
-    border: 1px solid purple/*erase this when finished*/;
+    border: 7px solid purple/*erase this when finished*/;
     display: flexbox;
-    position: fixed;
-    display: block;
+    position: relative;
+    background-color: white;
 }
 /*Post Head*/
 .post-head{
-    border: 1px solid green/*erase this when finished*/;
-    display:inline-flex;
+    border: 3px solid aqua/*erase this when finished*/;
+    display:flex;
     position: relative;
-    align-content:space-between;
+    width: auto;
 }
 .html5-icon{
     border: 1px solid red/*erase this when finished*/;
-    font-size: x-large;
     position: relative;
-    align-content:space-around;
-    padding-inline: 15%;
+    padding-inline: 3%;
     display: flexbox;
+    padding-top: 10%;
 }
 .post-title{
     border: 1px solid red/*erase this when finished*/;
-    display:flexbox;
-    justify-content:space-between;
-    padding-inline: 70%;
+    display: flexbox;
+    position: relative;
+    padding-inline: 15%;
 }
 .dotsmenu{
     border: 1px solid red/*erase this when finished*/;
     position: relative;
-    padding-inline: 15%;
-    align-content: space-around;
+    padding-inline: 5%;
     display: flexbox;
+    padding-top: 10%;
+    
 }
 /*Post Image*/
 .post-img{
-    border: 1px solid red/*erase this when finished*/;
-    height: 30em;
-    width: 1em;
+    border: 3px solid yellowgreen/*erase this when finished*/;
+    height: 50vh;
+    width: fit-content;
     display: flex;
     position: relative;
-    align-self: center;
 }
 /*Post Body*/
 .post-body{
-    border: 1px solid red/*erase this when finished*/;
-    height: 30px;
-    position: relative
+    border: 1px solid blue/*erase this when finished*/;
+    position: relative;
 }
 .icons{
     border: 1px solid red/*erase this when finished*/;
+    padding: 2%;
+}
+.bookmark{
+    display: inline;
+    float: right;
 }
 .comments{
-    border: 1px solid red/*erase this when finished*/;
-}
-.liked{
-    border: 1px solid red/*erase this when finished*/;
-    /*font-weight: bolder;*/
+    /*border: 1px solid red/*erase this when finished;*/
+    padding: 2%;
 }

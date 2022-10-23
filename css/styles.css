@@ -16,27 +16,26 @@ body{
     display:flex;
     position: relative;
     width: auto;
+    justify-items:right;
+    align-items: center;
 }
 .html5-icon{
-    position: relative;
-    padding-inline: 3%;
     display: flexbox;
-    padding-top: 5%;
-    justify-content: start;
+    position: relative;
+    padding: 3%;
 }
 .post-title{
     display: flexbox;
     position: relative;
-    justify-content: stretch;
-    padding-top: 2%;
+    padding: 1%;
+    padding-right: 27%;
     text-align: justify;
 }
 .dotsmenu{
-    position: relative;
-    justify-content: left;
     display: flexbox;
-    padding-top: 5%;
-    
+    position: relative;
+    padding: 1%;
+    padding-left: 49%;
 }
 /*Post Image*/
 .post-img{
@@ -58,6 +57,7 @@ body{
 .bookmark{
     display: inline;
     float: right;
+    padding-right: 2%;
 }
 .comments{
     padding: 2%;

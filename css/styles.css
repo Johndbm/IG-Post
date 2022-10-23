@@ -9,6 +9,7 @@ body{
     display: flexbox;
     position: relative;
     background-color: white;
+    justify-items: center;
     
 }
 /*Post Head*/
@@ -47,6 +48,7 @@ body{
 /*Post Body*/
 .post-body{
     position: relative;
+    padding: 1%;
 }
 .icons{
     padding: 2%;
